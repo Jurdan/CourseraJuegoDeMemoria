@@ -6,7 +6,7 @@ var resultado : String
 
 for i in 0...100 {
     
-    resultado = "#" + String(i)
+    resultado = "#\(i)"
     
     if i % 5 == 0{
         resultado += " Bingo!!!"
